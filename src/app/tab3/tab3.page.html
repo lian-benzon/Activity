@@ -30,7 +30,7 @@
       <ion-item-sliding id="item100" *ngFor="let cont of contacts">
         <ion-item>
           <ion-avatar slot="start">
-            <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+          <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
           </ion-avatar>
         <ion-label>
           <p>{{cont.name}}</p>
@@ -45,7 +45,7 @@
         </ion-item-option>
 
         <ion-item-option>
-          <ion-icon slot="icon-only"></ion-icon>
+          <ion-icon slot="icon-only" name="mail" routerLink="/message" routerDirection="forward"></ion-icon>
         </ion-item-option>
 
       </ion-item-options>

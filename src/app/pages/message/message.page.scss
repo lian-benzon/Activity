@@ -1,0 +1,42 @@
+
+.mess-msg1{
+    padding: 7px;
+    border-radius: 35px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+.msg2{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    background: #e52165;
+}
+.mess-box{
+    width: 100%;
+    height: 40px;   
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+.mess-btn{
+    height: 30px;
+    width: 45px;
+    border-radius: 20px;
+    margin-top: 9px;
+    --background: #0d1137;
+}
+ion-content{
+    --background: black;
+}
+ion-toolbar{
+    --background: #0d1137;
+}
+ion-title{
+    color: white;
+}
+ion-buttons{
+    color: white;
+}
+
